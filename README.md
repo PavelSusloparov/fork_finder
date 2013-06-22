@@ -14,6 +14,6 @@ Crontab configuration:
     1) Run 'sudo crontab -u root -e'
     2) Add 30 */2 * * * <Path to your local git repository location>/fork_finder.sh
     3) Save file
-    4) Check configuration changing: 'sudo crontab -u root -l'
+    4) Check configuration changes: 'sudo crontab -u root -l'
 
 Note: fork_finder.sh must be executable for root user.
