@@ -1,3 +1,7 @@
+"""
+The script is create process with NUM_CHILDS forks.
+"""
+
 import threading
 
 NUM_CHILDS = 11

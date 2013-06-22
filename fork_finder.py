@@ -83,7 +83,6 @@ class SignalToManyForkSender(object):
                 logging.error("Process %s has more than %s forks, but you do not have permission for send %s signal to it." % (pid, sig))
 
 def main():
-    print os.path.basename
     SignalToManyForkSender(MAX_FORKS, signal.SIGHUP).run()
 
 if __name__ == "__main__":
