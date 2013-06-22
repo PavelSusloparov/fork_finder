@@ -4,7 +4,8 @@ Python script is send SIGHUP signal to processes with more then 10 forks.
 
 Shell script is run under cron every 2 hours at 30 minutes.
 
-Script result you can find in <Path to your local git repository location>/fork.log
+Script result you can find in |Path to your local git repository location|/fork.log
+
 Crontab configuration:
 
     Please follow steps:
